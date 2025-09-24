@@ -205,7 +205,7 @@ Thumbs.db
 *.swo
 *~
 
-# Test files
-test_*.py
+# Test files (excluding utility scripts)
 *_test.py
 tests/
+# Note: test_installation.py is kept as it's a utility script, not a test
